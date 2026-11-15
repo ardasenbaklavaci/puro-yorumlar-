@@ -7,7 +7,7 @@ redirects = []
 [functions."*"]
 
 [build]
-publish = "C:\\Users\\Arda-PC\\Documents\\ChatGPT\\puro blogum\\site"
+publish = "C:\\Users\\Arda-PC\\Documents\\ChatGPT\\puro blogum\\docs"
 publishOrigin = "config"
 commandOrigin = "config"
 command = "python build_site.py"
