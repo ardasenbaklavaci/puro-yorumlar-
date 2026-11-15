@@ -5,4 +5,4 @@ User-agent: Googlebot
 Allow: /
 Crawl-delay: 0
 
-Sitemap: https://puroyorumlari.pages.dev/sitemap.xml
+Sitemap: https://ardasenbaklavaci.github.io/puro-yorumlar-/sitemap.xml

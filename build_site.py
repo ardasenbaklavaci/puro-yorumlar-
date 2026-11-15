@@ -4,8 +4,8 @@ from datetime import datetime
 
 ROOT=Path(__file__).parent
 EXPORT=ROOT/'puroyorumlar.WordPress.2026-11-15.xml'
-OUT=ROOT/'site'
-BASE='https://puroyorumlari.pages.dev'
+OUT=ROOT/'docs'
+BASE='https://ardasenbaklavaci.github.io/puro-yorumlar-'
 NS={'wp':'http://wordpress.org/export/1.2/','content':'http://purl.org/rss/1.0/modules/content/','excerpt':'http://wordpress.org/export/1.2/excerpt/'}
 
 def text(item, tag, default=''):

@@ -3,7 +3,7 @@
 
 [build]
   command = "python build_site.py"
-  publish = "site"
+  publish = "docs"
 
 # Cache headers for sitemap.xml - CRITICAL for Google Search Console
 [[headers]]
