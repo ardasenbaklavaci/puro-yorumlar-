@@ -1,0 +1,10 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "puro-yorumlari"
+main = "src/index.js"
+type = "javascript"
+compatibility_date = "2024-01-01"
+
+[env.production]
+routes = [
+  { pattern = "puroyorumlari.pages.dev", zone_name = "pages.dev" }
+]
