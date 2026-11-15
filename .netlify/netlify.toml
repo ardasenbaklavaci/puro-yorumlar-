@@ -1,0 +1,86 @@
+headersOrigin = "config"
+plugins = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "C:\\Users\\Arda-PC\\Documents\\ChatGPT\\puro blogum\\site"
+publishOrigin = "config"
+commandOrigin = "config"
+command = "python build_site.py"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[[headers]]
+for = "/robots.txt"
+
+[headers.values]
+Content-Type = "text/plain"
+Cache-Control = "public, max-age=86400"
+X-Content-Type-Options = "nosniff"
+
+[[headers]]
+for = "/*.xml"
+
+[headers.values]
+Content-Type = "application/xml"
+Cache-Control = "public, max-age=86400"
+X-Content-Type-Options = "nosniff"
+
+[[headers]]
+for = "/sitemap.xml"
+
+[headers.values]
+Cache-Control = "public, max-age=86400, must-revalidate"
+Content-Type = "application/xml; charset=utf-8"
+X-Content-Type-Options = "nosniff"
+
+[[headers]]
+for = "/robots.txt"
+
+[headers.values]
+Cache-Control = "public, max-age=604800"
+Content-Type = "text/plain; charset=utf-8"
+
+[[headers]]
+for = "/*.xml"
+
+[headers.values]
+Cache-Control = "public, max-age=86400"
+Content-Type = "application/xml; charset=utf-8"
+
+[[headers]]
+for = "/*.html"
+
+[headers.values]
+Cache-Control = "public, max-age=604800, must-revalidate"
+Content-Type = "text/html; charset=utf-8"
+
+[[headers]]
+for = "/assets/*"
+
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+for = "/"
+
+[headers.values]
+X-Frame-Options = "SAMEORIGIN"
+X-XSS-Protection = "1; mode=block"
+Referrer-Policy = "strict-origin-when-cross-origin"
